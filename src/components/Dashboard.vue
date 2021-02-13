@@ -84,4 +84,13 @@ export default {
   justify-content: space-around;
   margin: 0 20px;
 }
+
+@media (max-width: 700px){
+  .col-6{
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+  }
+}
 </style>
