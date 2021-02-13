@@ -42,7 +42,7 @@ export default {
     SleepSummary,
   },
   metaInfo: {
-    title: "Helse",
+    title: "Overview",
   },
   data() {
     return {
