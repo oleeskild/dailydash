@@ -1,6 +1,7 @@
 <template>
    <div>
        <div v-if="!isAuthorized">
+           <a href="https://todoist.com/prefs/integrations" target="_blank">Get API Token</a>
             <input type="text" name="apikey" v-model="apiTokenInput" placeholder="Todoist API-token" />
             <button @click="setToken(apiTokenInput)">Authorize</button>
        </div>
