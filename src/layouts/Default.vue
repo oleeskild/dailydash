@@ -4,7 +4,7 @@
      <div class="logo">
        <!-- <img class="circle" src="https://nb.gravatar.com/avatar/1dfe1530479b8cc71d2420fd12150220"/> -->
      </div> 
-     <h1 class="white">&#x1F39B;Dashboard</h1>
+     <h1 class="white">&#x1F39B; Dashboard</h1>
       
     </header> 
     <div class="content">

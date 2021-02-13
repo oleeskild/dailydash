@@ -1,7 +1,9 @@
 <template>
    <div>
-       <div v-if="!isAuthorized">
-           <a href="https://todoist.com/prefs/integrations" target="_blank">Get API Token</a>
+       <div class="authorize" v-if="!isAuthorized">
+            <div class="link">
+                <a href="https://todoist.com/prefs/integrations" target="_blank">Get API Token</a>
+            </div>
             <input type="text" name="apikey" v-model="apiTokenInput" placeholder="Todoist API-token" />
             <button @click="setToken(apiTokenInput)">Authorize</button>
        </div>
@@ -45,3 +47,14 @@ export default {
     }
 }
 </script>
+<style scoped>
+    .link{
+        margin: 10px;
+    }
+    .authorize{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+</style>>

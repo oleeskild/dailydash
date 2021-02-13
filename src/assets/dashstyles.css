@@ -1,0 +1,22 @@
+a {
+    text-decoration: none;
+    color: deepskyblue;
+    padding: 5px;
+    border-bottom: deepskyblue 3px solid;
+}
+a:hover {
+    color: rgb(8, 147, 194);
+    border-color: rgb(8, 147, 194);
+}
+button {
+    padding: 5px 15px;
+    border: none;
+    color:white;
+    background-color: rgb(123, 158, 101);
+    margin: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+input[type=text]{
+    font-size: 16px;
+}
