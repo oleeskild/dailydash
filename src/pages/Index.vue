@@ -1,12 +1,11 @@
 <template>
-    <a href="/dash"><h1>Dash</h1></a>
+  <dashboard /> 
 </template>
 <script>
+import Dashboard  from "../components/Dashboard.vue"
 export default {
-    mounted(){
-       if(window){
-           window.location = "/dash";
-       } 
-    }
+  components:{
+    Dashboard
+  } 
 }
 </script>
