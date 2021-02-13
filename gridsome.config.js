@@ -4,7 +4,11 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-module.exports = {
-  siteName: 'Dailydash',
-  plugins: []
+module.exports = function(api){
+  api.createPages(({ createPage }) => {
+    createPage({
+      path: '/',
+      component: './src/pages/Dash.vue'
+    })
+  })
 }
