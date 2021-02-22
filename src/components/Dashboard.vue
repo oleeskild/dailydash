@@ -51,7 +51,7 @@ export default {
   },
   mounted: function() {
     if (localStorage.getItem("access_token") == null) {
-      this.getToken();
+      this.tryGetToken();
     }
 
     this.getSleepData();
@@ -62,7 +62,7 @@ export default {
         this.sleepData = sleepData.sleep[0];
       });
     },
-    getToken() {
+    tryGetToken() {
       retrieveTokenFromUrl();
     },
   },
