@@ -1,12 +1,12 @@
 export let retrieveTokenFromUrl = () => {
     let url = window.location.href;
     //getting the access token from url
-    var access_token = url
+    let access_token = url
         .split("#")[1]
         .split("=")[1]
         .split("&")[0];
     // get the userid
-    var userId = url
+    let userId = url
         .split("#")[1]
         .split("=")[2]
         .split("&")[0];
