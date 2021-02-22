@@ -38,6 +38,6 @@ export let getSleepData = async () => {
         return json;
     }catch{
         localStorage.removeItem("access_token");
-        localStorage.setItem("userId"); 
+        localStorage.removeItem("userId"); 
     }
 }
